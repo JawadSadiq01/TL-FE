@@ -1,0 +1,49 @@
+@import "../_colors.scss";
+
+.primary-bg-color {
+  background-color: $primary-bg-color;
+}
+
+.primary-color {
+  color: $primary-bg-color;
+}
+
+.primary-light-bg-color {
+  background-color: $primary-light-bg-color;
+}
+
+.primary-light-color {
+  color: $primary-light-bg-color;
+}
+
+.secondary-bg-color {
+  background-color: $secondary-bg-color;
+}
+
+.secondary-color {
+  color: $secondary-bg-color;
+}
+
+.secondary-light-bg-color {
+  background-color: $secondary-light-bg-color;
+}
+
+.secondary-light-color {
+  color: $secondary-light-bg-color;
+}
+
+.text-primary-title-color{
+  color:$text-primary-title-color
+}
+
+.teriary-bg-color {
+  background-color: $teriary-bg-color;
+}
+
+.teriary-color {
+  color: $teriary-bg-color;
+}
+
+.teriary-light-bg-color {
+  background-color: $teriary-light-bg-color;
+}
