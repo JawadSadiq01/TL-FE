@@ -11,13 +11,20 @@
     width: 100vw;
     height: 100vh;
     @include flexBox(space-Between);
+    overflow: hidden;
     .sideDiv{
+        position: relative;
         width: 30%;
         height: 100vh;
         @include flexBox(center);
         background: linear-gradient(180deg,$primay,$light-yellow,$dark-yellow);
+        overflow: hidden;
+        svg{
+            width: 70%;
+        }
     }
     .loginForm{
+        position: relative;
         height: 100%;
         width: 68%;
         @include flexBox(center);
