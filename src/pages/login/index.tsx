@@ -1,6 +1,6 @@
 import Input from '../../components/Input'
 import Button from '../../components/Button'
-import {} from '../../components'
+import BgBox from '../../components/BgBox'
 import { Logo } from '../../assets/images';
 import './style.scss'
 const index = () => {
