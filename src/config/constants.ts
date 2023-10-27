@@ -7,3 +7,8 @@ export const STATUS_CONSTANTS: any = {
   CLOSED: 'closed',
   REJECTED: 'rejected',
 };
+
+export const DOCUMENT_CONSTANTS: any = {
+  DRIVERS: 'drivers',
+  CUSTOMER: 'customers'
+};
