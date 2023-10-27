@@ -1,0 +1,45 @@
+@import '../../scss/colors.scss';
+
+@mixin flexBox($justify){
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+}
+
+.loginPage{
+    background-color: $bg-color;
+    width: 100vw;
+    height: 100vh;
+    @include flexBox(space-Between);
+    .sideDiv{
+        width: 30%;
+        height: 100vh;
+        @include flexBox(center);
+        background: linear-gradient(180deg,$primay,$light-yellow,$dark-yellow);
+    }
+    .loginForm{
+        height: 100%;
+        width: 68%;
+        @include flexBox(center);
+        flex-direction: column;
+
+            h1{
+            font-size: 26px;
+        }
+        form{
+            width: 40%;
+            @include flexBox(space-Between);
+        flex-direction: column;
+        }
+        .logged{
+            width: 100%;
+            @include flexBox(space-Between);            
+            #keepLogIn{
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                background-color: #fff;
+            }
+        }
+    }
+    }

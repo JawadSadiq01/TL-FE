@@ -1,18 +1,20 @@
 import './App.scss'
-import { Logo } from './assets/images';
+import Login from './pages/login/index'
+// import { Logo } from './assets/images';
 
 function App() {
-  console.log(import.meta.env.VITE_SOME_KEY, "------");
+  // console.log(import.meta.env.VITE_SOME_KEY, "------");
   
   return (
     <>
-      <div>
+      {/* <div>
         <Logo />
       </div>
       
       <p className="font-bold underline">
         Hello World
-      </p>
+      </p> */}
+      <Login/>
     </>
   )
 }
