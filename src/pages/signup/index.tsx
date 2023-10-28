@@ -20,24 +20,13 @@ const formItemLayout = {
   },
 };
 
-const App: React.FC = () => {
+const Signup: React.FC = () => {
   const [form] = Form.useForm();
   const { createDriver } = useCustomHook();
 
-  const onFinish = (values: any) => {
-    // delete values.confirm;
-    const data = {
-      "fields": {
-        "name": {
-          "stringValue": "Jawad Sadiq"
-        },
-        "passengers": {
-          "integerValue": 5
-        }
-      }
-    }
-
-    createDriver(data);
+  const onFinish = async (values: any) => {
+    const resp = await createDriver(values);
+    console.log(JSON.stringify(resp, null, 4));
   };
 
   return (
@@ -171,4 +160,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default Signup;
