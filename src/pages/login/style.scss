@@ -50,3 +50,21 @@
         }
     }
     }
+@media (max-width:998px) {
+    .loginPage{
+        .loginForm{
+            form{
+                width: 50%;
+            }
+        }
+    }
+}
+@media (max-width:726px) {
+    .loginPage{
+        .loginForm{
+            form{
+                width: 60%;
+            }
+        }
+    }
+}
